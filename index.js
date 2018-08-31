@@ -6,7 +6,7 @@ paginationRow.style.visibility = 'hidden';
 
 // query the API
 function searchMovie(searchString, page=1) {
-    return fetch(`http://www.omdbapi.com/?s=${searchString}&page=${page}&type=movie&apikey=9baa487f`)
+    return fetch(`https://www.omdbapi.com/?s=${searchString}&page=${page}&type=movie&apikey=9baa487f`)
         .then(function (response) {
             return response.json();
         })
