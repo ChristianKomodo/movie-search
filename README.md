@@ -4,7 +4,8 @@ Click a movie title to see a poster (if available)
 Click through the pages of results
 
 ### Tech
-This project is practice for using the OMDB movie database API and the Javascript `fetch()` api.
+This project is practice for using the OMDB movie database API and the Javascript `fetch()` API:
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 Background provided by Subtle Patterns:
 https://www.toptal.com/designers/subtlepatterns/pineapple-cut/
