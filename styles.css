@@ -1,0 +1,39 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.6;
+    color: #666;
+    background: #F6F6F6;
+    background-image: url("pineapple.png");
+}
+
+.container {
+    padding: 1em;
+    max-width: 900px;
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    margin: 12px auto;
+    position: relative;
+}
+
+.headline {
+    width: 900px;
+    margin: auto;
+}
+
+.movie-title {
+    margin: 5px 0;
+}
+
+.poster {
+    float: right;
+}
+
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+ }

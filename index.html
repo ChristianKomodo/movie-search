@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Film Search</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h2 class="headline">Film Search</h2>
+    <p class="headline">Type in a movie title.  Click it's name to see a poster (if available)</p>
+    
+    <div class="container">
+        Title Search: 
+        <input id="searchTitle" type="text" name="title">
+        <button id="submit" type="submit" onclick="listMovies()">Search</button>
+    </div>
+
+    <div id="root" class="container clearfix"></div>
+
+    <div id="pagination" class="container pagination">Pages: </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
