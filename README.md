@@ -1,7 +1,13 @@
 # Movie Search
+https://christiankomodo.github.io/movie-search/
+
 Search for a movie by title
+
 Click a movie title to see a poster (if available)
-Click through the pages of results
+
+Click through the pages of results.
+
+Results are displayed in order of relevance, so the _Jaws_ you recognize is the first in the results.
 
 ### Tech
 This project is practice for using the OMDB movie database API and the Javascript `fetch()` API:
